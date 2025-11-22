@@ -1,23 +1,23 @@
 # 📚 Book Rating and Analytics System
 
 ## Project Title
-[cite_start]**Book Rating and Analytics System** [cite: 89]
+**Book Rating and Analytics System** 
 
 ## Overview of the Project
-This project is a modular, command-line application designed to simulate a fundamental component of a modern book review platform. [cite_start]It provides a structured environment for managing book records, collecting user ratings, and generating real-time analytical reports[cite: 90].
+This project is a modular, command-line application designed to simulate a fundamental component of a modern book review platform. It provides a structured environment for managing book records, collecting user ratings, and generating real-time analytical reports.
 
 The system was developed as part of a flipped course evaluation to apply core subject concepts in **modular architecture**, **data processing**, and **error handling**.
 
 ## Features
-[cite_start]The application is built around three major functional modules[cite: 21, 92]:
+The application is built around three major functional modules:
 
 * **Book Management (CRUD):** Allows for adding, retrieving, and deleting book records.
 * **Rating Processing:** Handles user submission of ratings (1-5) and calculates the average rating for each book.
-* [cite_start]**Reporting & Analytics:** Generates reports, including top-rated book lists and detailed statistics for individual books (e.g., average rating and total submissions)[cite: 28].
+* **Reporting & Analytics:** Generates reports, including top-rated book lists and detailed statistics for individual books (e.g., average rating and total submissions).
 
 ## Technologies/Tools Used
-* [cite_start]**Core Language:** Python 3.x [cite: 93]
-* [cite_start]**Version Control:** Git & GitHub [cite: 55]
+* **Core Language:** Python 3
+* **Version Control:** Git & GitHub 
 * **Data Storage:** In-memory Python Dictionaries (simulating a database schema)
 
 ## Steps to Install & Run the Project
@@ -29,12 +29,12 @@ The system was developed as part of a flipped course evaluation to apply core su
 2.  **Ensure Python is Installed:** This project requires Python 3.x.
 3.  **Run the Main Script:** Execute the interactive command-line interface.
     ```bash
-    python main.py
+    python menu_manager.py
     ```
-4.  **Interaction:** Follow the on-screen main menu (1-4) to add books, submit ratings, and view reports.
+4.  **Interaction:** Follow the on-screen main menu (1-9) to add books, submit ratings, and view reports.
 
 ## Instructions for Testing
-[cite_start]The system includes built-in validation to ensure reliability[cite: 54, 95]:
+The system includes built-in validation to ensure reliability:
 
 * **Functional Testing:** Select option **3 (View Reports)** to confirm that average ratings are correctly calculated and top-rated lists are accurately sorted.
 * **Validation Testing:** Attempt to submit a rating outside the 1-5 range (e.g., 0 or 6) to verify that the system correctly displays an "Error: Rating must be between 1 and 5" message.
