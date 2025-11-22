@@ -1,4 +1,4 @@
-# 📚 Book Rating and Analytics System
+#  Book Rating and Analytics System
 
 ## Project Title
 **Book Rating and Analytics System** 
