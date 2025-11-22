@@ -1,2 +1,42 @@
-# python-project-book-rating-system
-The Book Rating and Analytics System is a modular Python command-line application developed to fulfill the flipped course evaluation requirement. The project's goal is to apply subject concepts in a real-world context by identifying a problem and designing a technical solution.
+# 📚 Book Rating and Analytics System
+
+## Project Title
+[cite_start]**Book Rating and Analytics System** [cite: 89]
+
+## Overview of the Project
+This project is a modular, command-line application designed to simulate a fundamental component of a modern book review platform. [cite_start]It provides a structured environment for managing book records, collecting user ratings, and generating real-time analytical reports[cite: 90].
+
+The system was developed as part of a flipped course evaluation to apply core subject concepts in **modular architecture**, **data processing**, and **error handling**.
+
+## Features
+[cite_start]The application is built around three major functional modules[cite: 21, 92]:
+
+* **Book Management (CRUD):** Allows for adding, retrieving, and deleting book records.
+* **Rating Processing:** Handles user submission of ratings (1-5) and calculates the average rating for each book.
+* [cite_start]**Reporting & Analytics:** Generates reports, including top-rated book lists and detailed statistics for individual books (e.g., average rating and total submissions)[cite: 28].
+
+## Technologies/Tools Used
+* [cite_start]**Core Language:** Python 3.x [cite: 93]
+* [cite_start]**Version Control:** Git & GitHub [cite: 55]
+* **Data Storage:** In-memory Python Dictionaries (simulating a database schema)
+
+## Steps to Install & Run the Project
+1.  **Clone the Repository:**
+    ```bash
+    git clone [Your-GitHub-Repo-URL]
+    cd book-rating-system
+    ```
+2.  **Ensure Python is Installed:** This project requires Python 3.x.
+3.  **Run the Main Script:** Execute the interactive command-line interface.
+    ```bash
+    python main.py
+    ```
+4.  **Interaction:** Follow the on-screen main menu (1-4) to add books, submit ratings, and view reports.
+
+## Instructions for Testing
+[cite_start]The system includes built-in validation to ensure reliability[cite: 54, 95]:
+
+* **Functional Testing:** Select option **3 (View Reports)** to confirm that average ratings are correctly calculated and top-rated lists are accurately sorted.
+* **Validation Testing:** Attempt to submit a rating outside the 1-5 range (e.g., 0 or 6) to verify that the system correctly displays an "Error: Rating must be between 1 and 5" message.
+
+---
